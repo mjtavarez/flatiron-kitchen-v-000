@@ -16,4 +16,8 @@ class Recipe < ActiveRecord::Base
             end
         end
     end
+    
+    # Bonuses!
+    # Keep track of the quantity of ingredients currently on hand. Display on each recipe page how many dishes can be made given the existing ingredients.
+    # Write RSpec unit tests to verify your ingredients-to-dishes calculator.
 end
